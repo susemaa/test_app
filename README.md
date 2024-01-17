@@ -1,6 +1,8 @@
+[https://test-app-tau-vert.vercel.app/](Vercel Deploy)
+
 # Getting Started
 
-## Install dependencies
+Install dependencies:
 
 ```bash
 npm ci
@@ -12,3 +14,5 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can also see skeleton [http://0.0.0.0:3000](http://0.0.0.0:3000) here.
