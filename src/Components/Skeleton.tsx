@@ -1,5 +1,5 @@
 import React from 'react';
-import SkeletonCoin from './SkeletonCoin';
+import SkeletonCoin from '@/src/Components/SkeletonCoin';
 
 export default function Skeleton () {
   return (

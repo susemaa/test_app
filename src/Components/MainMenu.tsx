@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { ArrowDownCircleIcon, ArrowUpCircleIcon } from '@heroicons/react/24/solid'
-import Tokens from './Tokens';
-import Activities from './Activities';
-import type { Data } from '../types';
+import type { Data } from '@/src/types';
+import Tokens from '@/src/Components/Tokens';
+import Activities from '@/src/Components/Activities';
 
 type Props = {
   data: Data,

@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import type { ActivityType, Data } from '../../src/types';
+import type { ActivityType, Data } from '@/src/types';
 
 const users = [
   {

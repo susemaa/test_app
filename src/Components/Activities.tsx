@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowDownCircleIcon, ArrowUpCircleIcon } from '@heroicons/react/24/outline';
-import type { Activity } from '../types';
+import type { Activity } from '@/src/types';
 
 type ActivitiesProps = {
   activities: Activity[];

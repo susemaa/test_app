@@ -1,5 +1,5 @@
 import React from 'react';
-import type { Coin } from '../types';
+import type { Coin } from '@/src/types';
 
 type TokensProps = {
   coins: Coin[];

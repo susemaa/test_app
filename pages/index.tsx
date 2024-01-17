@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import MainMenu from '@/src/Components/MainMenu';
 import Skeleton from '@/src/Components/Skeleton';
-import type { Data } from '../src/types';
+import type { Data } from '@/src/types';
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
