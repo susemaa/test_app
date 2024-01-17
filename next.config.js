@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   basePath: '/test_app',
   assetPrefix: '/test_app/',
-  output: 'export',
+  output: 'standalone',
 }
 
 module.exports = nextConfig
