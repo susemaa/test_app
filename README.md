@@ -1,4 +1,4 @@
-[https://test-app-tau-vert.vercel.app/](Vercel Deploy)
+[https://test-app-tau-vert.vercel.app/](VercelDeploy)
 
 # Getting Started
 
