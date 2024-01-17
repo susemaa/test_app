@@ -4,6 +4,10 @@ import MainMenu from '@/src/Components/MainMenu';
 import Skeleton from '@/src/Components/Skeleton';
 import type { Data } from '@/src/types';
 
+const API_BASE_URL = process.env.NODE_ENV === 'production'
+  ? 'https://test-app-tau-vert.vercel.app/api'
+  : 'http://localhost:3000/api';
+
 export default function Home() {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState<Data|null>(null);
@@ -11,7 +15,7 @@ export default function Home() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.post('http://localhost:3000/api/auth', {
+        const response = await axios.post(`${API_BASE_URL}/auth`, {
           login: 'admin',
           password: 'admin',
         });
